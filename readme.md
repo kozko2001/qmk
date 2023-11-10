@@ -1,5 +1,22 @@
 # Quantum Mechanical Keyboard Firmware
 
+## KZK!!!
+
+
+if you want to just change the keymap you can use https://config.qmk.fm/ and upload the ./keymap.json 
+do your changes, and then download and overwrite the keymap.json
+
+once that you can compile with:
+   
+1. `git submodule update`
+
+2. `./cheapino.sh`
+
+once it ended to compile, press both buttons boot and reset to set the chip into boot mode,
+then you should mount the partition... if your computer can autodetect the usb and automount
+
+then the software will flash :)
+
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
 [![Discord](https://img.shields.io/discord/440868230475677696.svg)](https://discord.gg/Uq7gcHh)
 [![Docs Status](https://img.shields.io/badge/docs-ready-orange.svg)](https://docs.qmk.fm)

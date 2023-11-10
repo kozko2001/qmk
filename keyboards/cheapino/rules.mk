@@ -5,6 +5,6 @@ RGBLIGHT_ENABLE = yes
 DEFERRED_EXEC_ENABLE = yes
 SRC += encoder.c
 SRC += matrix.c
-# SRC += tap_dance.c
-# TAP_DANCE_ENABLE=yes
+SRC += tap_dance.c
+TAP_DANCE_ENABLE=yes
 
